@@ -6,10 +6,12 @@
  *
  * @node: Pointer to the node to check
  *
- * Description: This function checks whether a node is a leaf. A node is considered a leaf
- * if it has no left or right children. If the node is NULL, the function returns 0.
+ * Description: checks whether a node is a leaf. A node is considered a leaf
+ * if it has no left or right children.
+ * If the node is NULL, the function returns 0.
  *
- * Return: 1 if the node is a leaf, 0 if the node is not a leaf or if the node is NULL
+ * Return: 1 if the node is a leaf,
+ * 0 if the node is not a leaf or if the node is NULL
  */
 
 int binary_tree_is_leaf(const binary_tree_t *node)
