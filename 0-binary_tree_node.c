@@ -10,7 +10,7 @@
  *
  * Description: create a binary tree
  *
- * return: return a pointer to the new node, or NULL on failure
+ * Return: return a pointer to the new node, or NULL on failure
  */
 
 binary_tree_t *binary_tree_node(binary_tree_t *parent, int value)
