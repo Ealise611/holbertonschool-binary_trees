@@ -8,7 +8,7 @@
  * Return: The number of nodes in the binary tree.
  *         If tree is NULL, returns 0.
  *
- * Description: This function traverses the binary tree to count the total number
+ * Description: traverses the binary tree to count the total number
  *              of nodes. It recursively counts the nodes in the left and right
  *              subtrees and adds them to 1 for the current node.
  */
